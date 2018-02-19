@@ -1,0 +1,65 @@
+.logo-band{
+    min-height:3em;
+    /* background-color: red; */
+    font-family: "Yrsa",Georgia,Serif;
+    text-align: center;
+}
+
+
+
+.login{
+    color: black;
+    font-size: 1.5em;
+    padding-top: 1.5em;
+    float: right;
+}
+
+.nav-band{
+    background-color: #15b6b8;
+    color: white;
+    height: 3em;
+}
+.nav-band a{
+    color : white;
+    text-decoration: none;
+    font-family: "Source Sans Pro",Helvetica,sans-serif;
+    font-size: 1.2em;
+    font-weight: 350;
+}
+
+a.dropdown-toggle:hover{
+    color:black;
+}
+
+.nav-band ul{
+    padding-top : 0.7em;
+}
+div.row.nav-band > nav > div > ul > li.dropdown.open > ul{
+    margin-top: 0.65em;
+}
+
+.dropdown-background{
+    background-color: #15b6b8;
+    font-size: 1em;
+}
+
+body{
+    background-color: white;
+}
+
+.car-opacity{
+    width: 100%;
+}
+
+.content{
+    text-align: justify;
+    font-family: "Source Sans Pro",Helvetica,sans-serif;
+    background-color: #f8f8f8;
+}
+
+.rcorners {
+    border-radius: 0px 0px 0px 15px;
+    border-color: lightgrey;
+    border-style: solid;
+    margin-top: 1em;
+}
