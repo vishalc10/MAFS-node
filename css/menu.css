@@ -55,6 +55,7 @@ body{
     text-align: justify;
     font-family: "Source Sans Pro",Helvetica,sans-serif;
     background-color: #f8f8f8;
+    box-shadow: 1px 3px 7px 3px grey;
 }
 
 .rcorners {
