@@ -1,6 +1,7 @@
 .logo-band{
     /* background-color: red; */
     font-family: "Yrsa",Georgia,Serif;
+    align: center;
 }
 
 
@@ -40,8 +41,9 @@ div.row.nav-band > nav > div > ul > li.dropdown.open > ul{
 }
 
 .dropdown-background{
-    background-color: #15b6b8;
+    background-color: #a1e5e5;
     font-size: 1em;
+    margin-top: 0.6em;
 }
 
 body{
@@ -55,15 +57,27 @@ body{
 .content{
     text-align: justify;
     font-family: "Source Sans Pro",Helvetica,sans-serif;
-    background-color: #f8f8f8;
+    background-color: #f8f8f880;
 }
 
 .rcorners {
     border-radius: 0px 0px 0px 15px;
-    border-color: lightgrey;
+    border-color: #757575;
     border-style: solid;
     margin-top: 1em;
     margin-bottom: 0.7em;
+    box-shadow: -1px -1px 6px 0px black
     
 }
 
+.ff8300{
+    color: #ff8300;
+}
+
+.b891{
+    color: #15b891;
+}
+
+.e7f80{
+    color: #0e7f80;
+}
