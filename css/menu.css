@@ -1,57 +1,83 @@
-.logo-band{
-    /* background-color: red; */
-    font-family: "Yrsa",Georgia,Serif;
-    align: center;
-}
-
-
-
-.login{
-    color: black;
-    font-size: 1.5em;
-    padding-top: 1.5em;
-    float: right;
-}
-
-.nav-band{
-    background-color: #15b6b8;
-    color: white;
-    font-size: 1.2em;
-    height: 3em;
-}
-.nav-band a{
-    color : white;
-    text-decoration: none;
-    font-family: "Source Sans Pro",Helvetica,sans-serif;
-    font-size: 1.2em;
-    margin: 0.2em;
-    font-weight: 350;
-}
-
-.dropdown:hover .dropdown-toggle{
-    color: black;
-}
-
-.nav-band ul{
-    padding-top : 0.7em;
-}
-
-div.row.nav-band > nav > div > ul > li.dropdown.open > ul{
-    margin-top: 0.65em;
-}
-
-.dropdown-background{
-    background-color: #a1e5e5;
-    font-size: 1em;
-    margin-top: 0.6em;
-}
-
 body{
     background-color: white;
 }
 
-.car-opacity{
+/* Navbar CSS
+*/
+
+/* Remove jumbotron's default margin-bottom*/
+
+.jumbotron {
+    margin-bottom: 0;
+    background: #fff;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+
+.navbar {
+    margin-bottom: -0.2em;
+    border-radius: 0;
+    font-size: 1.2em;
+    background-color: #15b6b8;
+    border-style: none;
+    font-family: Georgia, serif;
+}
+
+.nav-container{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/* .navbar-inverse{
+    background-color: #15b6b8;
+} */
+
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #000;
+    background-color: #15b6b8;
+}
+
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-toggle:hover, .navbar-toggle{
+    background-color: #15b6b8;
+    border-style: none;
+}
+
+.dropdown-menu{
+    color:black;
+    background-color: #a1e5e5;
+    box-shadow: 1px 1px 10px 0px black;
+    font-size: 1.1em;
+}
+
+@media (max-width: 767px){
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+        color: #000;
+    }
+}
+
+/* Navbar CSS END
+*/
+
+.carousel-inner img {
     width: 100%;
+    /* Set width to 100% */
+    margin: auto;
+    min-height: 200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
 }
 
 .content{
