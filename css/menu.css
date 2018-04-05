@@ -54,6 +54,7 @@ body{
     background-color: #a1e5e5;
     box-shadow: 1px 1px 10px 0px black;
     font-size: 1.1em;
+    border-radius: 0px;
 }
 
 @media (max-width: 767px){
